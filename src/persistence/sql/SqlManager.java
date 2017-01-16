@@ -144,7 +144,7 @@ public class SqlManager extends PersistenceManager {
         String query = "create table " + name + "(";
 
         for (Field field : fields) {
-            query += field.getName() + " " + field.getType()
+            //query += field.getName() + " " + field.getType()
         }
 
         query += ")";
